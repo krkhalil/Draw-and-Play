@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55B7D7FA0DDB2CBA606CB8F4 /* libPods-Draw and Play.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CC40E757088DC19F4D3752 /* libPods-Draw and Play.a */; };
+		C41F3898217EEEE600BF8478 /* 54528.svg in Resources */ = {isa = PBXBuildFile; fileRef = C41F3897217EEEE500BF8478 /* 54528.svg */; };
+		C41F389A217EF1E700BF8478 /* 54528.png in Resources */ = {isa = PBXBuildFile; fileRef = C41F3899217EF1E600BF8478 /* 54528.png */; };
+		C41F389C217EF20B00BF8478 /* delete-sign.png in Resources */ = {isa = PBXBuildFile; fileRef = C41F389B217EF20B00BF8478 /* delete-sign.png */; };
+		C457650F2187A4DB0078A67D /* podfile in Resources */ = {isa = PBXBuildFile; fileRef = C457650E2187A4DB0078A67D /* podfile */; };
+		C46575F5225A0BEA00B8589B /* selectsketchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46575F4225A0BEA00B8589B /* selectsketchViewController.m */; };
+		C478A6D2219A04CD00153397 /* SketchtypeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C478A6D1219A04CD00153397 /* SketchtypeCollectionViewCell.m */; };
+		C489E07C217AB909008B7369 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C489E07B217AB909008B7369 /* ViewController.m */; };
+		C4A529522176560D007503CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A529512176560D007503CC /* AppDelegate.m */; };
+		C4A529582176560D007503CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A529562176560D007503CC /* Main.storyboard */; };
+		C4A5295A21765610007503CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A5295921765610007503CC /* Assets.xcassets */; };
+		C4A5295D21765610007503CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A5295B21765610007503CC /* LaunchScreen.storyboard */; };
+		C4A5296021765610007503CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A5295F21765610007503CC /* main.m */; };
+		C4A5296A21765610007503CC /* Draw_and_PlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A5296921765610007503CC /* Draw_and_PlayTests.m */; };
+		C4A5297521765610007503CC /* Draw_and_PlayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A5297421765610007503CC /* Draw_and_PlayUITests.m */; };
+		C4A529A421765647007503CC /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A5298221765642007503CC /* reset.png */; };
+		C4A529A621765647007503CC /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4A5298621765643007503CC /* background.jpg */; };
+		C4A529A721765647007503CC /* sketch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4A5298721765644007503CC /* sketch.jpg */; };
+		C4A529A821765647007503CC /* erase (1).png in Resources */ = {isa = PBXBuildFile; fileRef = C4A5298821765644007503CC /* erase (1).png */; };
+		C4A529A921765647007503CC /* DrawndColor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4A5298921765645007503CC /* DrawndColor.jpg */; };
+		C4A529AA21765647007503CC /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A5298B21765645007503CC /* gear.png */; };
+		C4A529AB21765647007503CC /* width.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A5298C21765645007503CC /* width.png */; };
+		C4A529AC21765647007503CC /* DarkOrange.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A5298D21765645007503CC /* DarkOrange.png */; };
+		C4A529AD21765647007503CC /* Save-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A5298E21765645007503CC /* Save-Small.png */; };
+		C4A529AE21765647007503CC /* Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A5298F21765645007503CC /* Yellow.png */; };
+		C4A529AF21765647007503CC /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A5299021765645007503CC /* Blue.png */; };
+		C4A529B021765647007503CC /* reset-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A5299121765645007503CC /* reset-Small.png */; };
+		C4A529B121765647007503CC /* Black.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A5299221765645007503CC /* Black.png */; };
+		C4A529B221765647007503CC /* Custom-Color.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A5299321765645007503CC /* Custom-Color.png */; };
+		C4A529B321765647007503CC /* Eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A5299421765645007503CC /* Eraser.png */; };
+		C4A529B421765647007503CC /* Setting-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A5299521765645007503CC /* Setting-1.png */; };
+		C4A529B521765647007503CC /* Setting-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A5299621765645007503CC /* Setting-2.png */; };
+		C4A529B621765647007503CC /* LightGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A5299721765645007503CC /* LightGreen.png */; };
+		C4A529B721765647007503CC /* Grey.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A5299821765645007503CC /* Grey.png */; };
+		C4A529B821765647007503CC /* thickness.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A5299921765645007503CC /* thickness.png */; };
+		C4A529B921765647007503CC /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A5299A21765645007503CC /* b.png */; };
+		C4A529BA21765647007503CC /* DarkGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A5299B21765645007503CC /* DarkGreen.png */; };
+		C4A529BB21765647007503CC /* Brown.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A5299C21765645007503CC /* Brown.png */; };
+		C4A529BC21765647007503CC /* LightBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A5299D21765645007503CC /* LightBlue.png */; };
+		C4A529BD21765647007503CC /* r.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A5299E21765645007503CC /* r.png */; };
+		C4A529BE21765647007503CC /* g.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A5299F21765645007503CC /* g.png */; };
+		C4A529BF21765647007503CC /* Opacity.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A529A021765645007503CC /* Opacity.png */; };
+		C4A529C021765647007503CC /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A529A121765645007503CC /* Red.png */; };
+		C4A529C121765647007503CC /* save-png-image-82434.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A529A221765646007503CC /* save-png-image-82434.png */; };
+		C4A529C221765647007503CC /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A529A321765647007503CC /* SettingsViewController.m */; };
+		C4A529C621770CF4007503CC /* firstScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A529C521770CF4007503CC /* firstScreenViewController.m */; };
+		C4A529C821770DA3007503CC /* block-ads.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A529C721770DA2007503CC /* block-ads.png */; };
+		C4C60F6F21A052E000197346 /* animals logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C60F6E21A052DD00197346 /* animals logo.png */; };
+		C4C60F7221A052EB00197346 /* carslogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C60F7021A052E900197346 /* carslogo.png */; };
+		C4C60F7321A052EB00197346 /* fruitslogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4C60F7121A052EA00197346 /* fruitslogo.jpg */; };
+		C4F7AF5B21AAFC6200955F4F /* shapeslogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4F7AF5A21AAFC6200955F4F /* shapeslogo.jpg */; };
+		C4F7AF5D21AAFF1100955F4F /* shapes.png in Resources */ = {isa = PBXBuildFile; fileRef = C4F7AF5C21AAFF1100955F4F /* shapes.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4A5296621765610007503CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4A529452176560D007503CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4A5294C2176560D007503CC;
+			remoteInfo = "Draw and Play";
+		};
+		C4A5297121765610007503CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4A529452176560D007503CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4A5294C2176560D007503CC;
+			remoteInfo = "Draw and Play";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26CC40E757088DC19F4D3752 /* libPods-Draw and Play.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Draw and Play.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32EC2673CD8774F994D1338F /* Pods-Draw and Play.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Draw and Play.release.xcconfig"; path = "Pods/Target Support Files/Pods-Draw and Play/Pods-Draw and Play.release.xcconfig"; sourceTree = "<group>"; };
+		C41F3897217EEEE500BF8478 /* 54528.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 54528.svg; sourceTree = "<group>"; };
+		C41F3899217EF1E600BF8478 /* 54528.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 54528.png; sourceTree = "<group>"; };
+		C41F389B217EF20B00BF8478 /* delete-sign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete-sign.png"; sourceTree = "<group>"; };
+		C457650E2187A4DB0078A67D /* podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = podfile; sourceTree = "<group>"; };
+		C46575F3225A0BEA00B8589B /* selectsketchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = selectsketchViewController.h; sourceTree = "<group>"; };
+		C46575F4225A0BEA00B8589B /* selectsketchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = selectsketchViewController.m; sourceTree = "<group>"; };
+		C478A6D0219A04CD00153397 /* SketchtypeCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SketchtypeCollectionViewCell.h; path = "Draw and Play/SketchtypeCollectionViewCell.h"; sourceTree = SOURCE_ROOT; };
+		C478A6D1219A04CD00153397 /* SketchtypeCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SketchtypeCollectionViewCell.m; path = "Draw and Play/SketchtypeCollectionViewCell.m"; sourceTree = SOURCE_ROOT; };
+		C489E07A217AB909008B7369 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C489E07B217AB909008B7369 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4A5294D2176560D007503CC /* Draw and Play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Draw and Play.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A529502176560D007503CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4A529512176560D007503CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4A529572176560D007503CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4A5295921765610007503CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4A5295C21765610007503CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4A5295E21765610007503CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A5295F21765610007503CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4A5296521765610007503CC /* Draw and PlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Draw and PlayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A5296921765610007503CC /* Draw_and_PlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Draw_and_PlayTests.m; sourceTree = "<group>"; };
+		C4A5296B21765610007503CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A5297021765610007503CC /* Draw and PlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Draw and PlayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A5297421765610007503CC /* Draw_and_PlayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Draw_and_PlayUITests.m; sourceTree = "<group>"; };
+		C4A5297621765611007503CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A5298221765642007503CC /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
+		C4A5298321765643007503CC /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		C4A5298621765643007503CC /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		C4A5298721765644007503CC /* sketch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sketch.jpg; sourceTree = "<group>"; };
+		C4A5298821765644007503CC /* erase (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "erase (1).png"; sourceTree = "<group>"; };
+		C4A5298921765645007503CC /* DrawndColor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DrawndColor.jpg; sourceTree = "<group>"; };
+		C4A5298B21765645007503CC /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		C4A5298C21765645007503CC /* width.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = width.png; sourceTree = "<group>"; };
+		C4A5298D21765645007503CC /* DarkOrange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DarkOrange.png; sourceTree = "<group>"; };
+		C4A5298E21765645007503CC /* Save-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Save-Small.png"; sourceTree = "<group>"; };
+		C4A5298F21765645007503CC /* Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yellow.png; sourceTree = "<group>"; };
+		C4A5299021765645007503CC /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
+		C4A5299121765645007503CC /* reset-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reset-Small.png"; sourceTree = "<group>"; };
+		C4A5299221765645007503CC /* Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Black.png; sourceTree = "<group>"; };
+		C4A5299321765645007503CC /* Custom-Color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Custom-Color.png"; sourceTree = "<group>"; };
+		C4A5299421765645007503CC /* Eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eraser.png; sourceTree = "<group>"; };
+		C4A5299521765645007503CC /* Setting-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setting-1.png"; sourceTree = "<group>"; };
+		C4A5299621765645007503CC /* Setting-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setting-2.png"; sourceTree = "<group>"; };
+		C4A5299721765645007503CC /* LightGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightGreen.png; sourceTree = "<group>"; };
+		C4A5299821765645007503CC /* Grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Grey.png; sourceTree = "<group>"; };
+		C4A5299921765645007503CC /* thickness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thickness.png; sourceTree = "<group>"; };
+		C4A5299A21765645007503CC /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
+		C4A5299B21765645007503CC /* DarkGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DarkGreen.png; sourceTree = "<group>"; };
+		C4A5299C21765645007503CC /* Brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brown.png; sourceTree = "<group>"; };
+		C4A5299D21765645007503CC /* LightBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightBlue.png; sourceTree = "<group>"; };
+		C4A5299E21765645007503CC /* r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r.png; sourceTree = "<group>"; };
+		C4A5299F21765645007503CC /* g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = g.png; sourceTree = "<group>"; };
+		C4A529A021765645007503CC /* Opacity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Opacity.png; sourceTree = "<group>"; };
+		C4A529A121765645007503CC /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red.png; sourceTree = "<group>"; };
+		C4A529A221765646007503CC /* save-png-image-82434.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save-png-image-82434.png"; sourceTree = "<group>"; };
+		C4A529A321765647007503CC /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		C4A529C321765671007503CC /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Twitter.framework; sourceTree = DEVELOPER_DIR; };
+		C4A529C421770CF4007503CC /* firstScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = firstScreenViewController.h; sourceTree = "<group>"; };
+		C4A529C521770CF4007503CC /* firstScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstScreenViewController.m; sourceTree = "<group>"; };
+		C4A529C721770DA2007503CC /* block-ads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "block-ads.png"; sourceTree = "<group>"; };
+		C4C60F6E21A052DD00197346 /* animals logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "animals logo.png"; sourceTree = "<group>"; };
+		C4C60F7021A052E900197346 /* carslogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carslogo.png; sourceTree = "<group>"; };
+		C4C60F7121A052EA00197346 /* fruitslogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fruitslogo.jpg; sourceTree = "<group>"; };
+		C4F7AF5A21AAFC6200955F4F /* shapeslogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shapeslogo.jpg; sourceTree = "<group>"; };
+		C4F7AF5C21AAFF1100955F4F /* shapes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shapes.png; sourceTree = "<group>"; };
+		EFB4B8D12FF339ECA4633188 /* Pods-Draw and Play.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Draw and Play.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Draw and Play/Pods-Draw and Play.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4A5294A2176560D007503CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B7D7FA0DDB2CBA606CB8F4 /* libPods-Draw and Play.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A5296221765610007503CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A5296D21765610007503CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3548E449699DBDFD5A4A66D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFB4B8D12FF339ECA4633188 /* Pods-Draw and Play.debug.xcconfig */,
+				32EC2673CD8774F994D1338F /* Pods-Draw and Play.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC8FEB9E8B7011ABEA9565CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26CC40E757088DC19F4D3752 /* libPods-Draw and Play.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4A529442176560D007503CC = {
+			isa = PBXGroup;
+			children = (
+				C457650E2187A4DB0078A67D /* podfile */,
+				C4C60F7021A052E900197346 /* carslogo.png */,
+				C4C60F7121A052EA00197346 /* fruitslogo.jpg */,
+				C4C60F6E21A052DD00197346 /* animals logo.png */,
+				C4F7AF5A21AAFC6200955F4F /* shapeslogo.jpg */,
+				C4F7AF5C21AAFF1100955F4F /* shapes.png */,
+				C4A529C321765671007503CC /* Twitter.framework */,
+				C4A5294F2176560D007503CC /* Draw and Play */,
+				C4A5296821765610007503CC /* Draw and PlayTests */,
+				C4A5297321765610007503CC /* Draw and PlayUITests */,
+				C4A5294E2176560D007503CC /* Products */,
+				3548E449699DBDFD5A4A66D5 /* Pods */,
+				BC8FEB9E8B7011ABEA9565CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C4A5294E2176560D007503CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4A5294D2176560D007503CC /* Draw and Play.app */,
+				C4A5296521765610007503CC /* Draw and PlayTests.xctest */,
+				C4A5297021765610007503CC /* Draw and PlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4A5294F2176560D007503CC /* Draw and Play */ = {
+			isa = PBXGroup;
+			children = (
+				C41F389B217EF20B00BF8478 /* delete-sign.png */,
+				C41F3897217EEEE500BF8478 /* 54528.svg */,
+				C41F3899217EF1E600BF8478 /* 54528.png */,
+				C4A529C721770DA2007503CC /* block-ads.png */,
+				C4A5298621765643007503CC /* background.jpg */,
+				C4A5298921765645007503CC /* DrawndColor.jpg */,
+				C4A5298821765644007503CC /* erase (1).png */,
+				C4A5298A21765645007503CC /* Graphics */,
+				C4A5298221765642007503CC /* reset.png */,
+				C4A529A221765646007503CC /* save-png-image-82434.png */,
+				C4A5298321765643007503CC /* SettingsViewController.h */,
+				C4A529A321765647007503CC /* SettingsViewController.m */,
+				C4A5298721765644007503CC /* sketch.jpg */,
+				C4A529502176560D007503CC /* AppDelegate.h */,
+				C4A529512176560D007503CC /* AppDelegate.m */,
+				C4A529562176560D007503CC /* Main.storyboard */,
+				C46575F3225A0BEA00B8589B /* selectsketchViewController.h */,
+				C46575F4225A0BEA00B8589B /* selectsketchViewController.m */,
+				C489E07A217AB909008B7369 /* ViewController.h */,
+				C489E07B217AB909008B7369 /* ViewController.m */,
+				C4A529C421770CF4007503CC /* firstScreenViewController.h */,
+				C4A529C521770CF4007503CC /* firstScreenViewController.m */,
+				C4A5295921765610007503CC /* Assets.xcassets */,
+				C4A5295B21765610007503CC /* LaunchScreen.storyboard */,
+				C4A5295E21765610007503CC /* Info.plist */,
+				C4A5295F21765610007503CC /* main.m */,
+			);
+			path = "Draw and Play";
+			sourceTree = "<group>";
+		};
+		C4A5296821765610007503CC /* Draw and PlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4A5296921765610007503CC /* Draw_and_PlayTests.m */,
+				C4A5296B21765610007503CC /* Info.plist */,
+			);
+			path = "Draw and PlayTests";
+			sourceTree = "<group>";
+		};
+		C4A5297321765610007503CC /* Draw and PlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4A5297421765610007503CC /* Draw_and_PlayUITests.m */,
+				C4A5297621765611007503CC /* Info.plist */,
+			);
+			path = "Draw and PlayUITests";
+			sourceTree = "<group>";
+		};
+		C4A5298A21765645007503CC /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				C4A5298B21765645007503CC /* gear.png */,
+				C4A5298C21765645007503CC /* width.png */,
+				C4A5298D21765645007503CC /* DarkOrange.png */,
+				C4A5298E21765645007503CC /* Save-Small.png */,
+				C4A5298F21765645007503CC /* Yellow.png */,
+				C4A5299021765645007503CC /* Blue.png */,
+				C4A5299121765645007503CC /* reset-Small.png */,
+				C4A5299221765645007503CC /* Black.png */,
+				C4A5299321765645007503CC /* Custom-Color.png */,
+				C4A5299421765645007503CC /* Eraser.png */,
+				C4A5299521765645007503CC /* Setting-1.png */,
+				C4A5299621765645007503CC /* Setting-2.png */,
+				C4A5299721765645007503CC /* LightGreen.png */,
+				C4A5299821765645007503CC /* Grey.png */,
+				C4A5299921765645007503CC /* thickness.png */,
+				C4A5299A21765645007503CC /* b.png */,
+				C4A5299B21765645007503CC /* DarkGreen.png */,
+				C4A5299C21765645007503CC /* Brown.png */,
+				C4A5299D21765645007503CC /* LightBlue.png */,
+				C4A5299E21765645007503CC /* r.png */,
+				C4A5299F21765645007503CC /* g.png */,
+				C4A529A021765645007503CC /* Opacity.png */,
+				C4A529A121765645007503CC /* Red.png */,
+				C478A6D0219A04CD00153397 /* SketchtypeCollectionViewCell.h */,
+				C478A6D1219A04CD00153397 /* SketchtypeCollectionViewCell.m */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4A5294C2176560D007503CC /* Draw and Play */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4A5297921765611007503CC /* Build configuration list for PBXNativeTarget "Draw and Play" */;
+			buildPhases = (
+				CDFF5571593A2DDD453B2292 /* [CP] Check Pods Manifest.lock */,
+				C4A529492176560D007503CC /* Sources */,
+				C4A5294A2176560D007503CC /* Frameworks */,
+				C4A5294B2176560D007503CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Draw and Play";
+			productName = "Draw and Play";
+			productReference = C4A5294D2176560D007503CC /* Draw and Play.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4A5296421765610007503CC /* Draw and PlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4A5297C21765611007503CC /* Build configuration list for PBXNativeTarget "Draw and PlayTests" */;
+			buildPhases = (
+				C4A5296121765610007503CC /* Sources */,
+				C4A5296221765610007503CC /* Frameworks */,
+				C4A5296321765610007503CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4A5296721765610007503CC /* PBXTargetDependency */,
+			);
+			name = "Draw and PlayTests";
+			productName = "Draw and PlayTests";
+			productReference = C4A5296521765610007503CC /* Draw and PlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4A5296F21765610007503CC /* Draw and PlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4A5297F21765611007503CC /* Build configuration list for PBXNativeTarget "Draw and PlayUITests" */;
+			buildPhases = (
+				C4A5296C21765610007503CC /* Sources */,
+				C4A5296D21765610007503CC /* Frameworks */,
+				C4A5296E21765610007503CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4A5297221765610007503CC /* PBXTargetDependency */,
+			);
+			name = "Draw and PlayUITests";
+			productName = "Draw and PlayUITests";
+			productReference = C4A5297021765610007503CC /* Draw and PlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4A529452176560D007503CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Pasha;
+				TargetAttributes = {
+					C4A5294C2176560D007503CC = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					C4A5296421765610007503CC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C4A5294C2176560D007503CC;
+					};
+					C4A5296F21765610007503CC = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C4A5294C2176560D007503CC;
+					};
+				};
+			};
+			buildConfigurationList = C4A529482176560D007503CC /* Build configuration list for PBXProject "Draw and Play" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4A529442176560D007503CC;
+			productRefGroup = C4A5294E2176560D007503CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4A5294C2176560D007503CC /* Draw and Play */,
+				C4A5296421765610007503CC /* Draw and PlayTests */,
+				C4A5296F21765610007503CC /* Draw and PlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4A5294B2176560D007503CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A5295D21765610007503CC /* LaunchScreen.storyboard in Resources */,
+				C4A529BC21765647007503CC /* LightBlue.png in Resources */,
+				C4A529BA21765647007503CC /* DarkGreen.png in Resources */,
+				C4A529B521765647007503CC /* Setting-2.png in Resources */,
+				C4A529C821770DA3007503CC /* block-ads.png in Resources */,
+				C4A529A621765647007503CC /* background.jpg in Resources */,
+				C4F7AF5D21AAFF1100955F4F /* shapes.png in Resources */,
+				C4A529BB21765647007503CC /* Brown.png in Resources */,
+				C41F389A217EF1E700BF8478 /* 54528.png in Resources */,
+				C4A529AA21765647007503CC /* gear.png in Resources */,
+				C4A529B221765647007503CC /* Custom-Color.png in Resources */,
+				C4A5295A21765610007503CC /* Assets.xcassets in Resources */,
+				C4A529B721765647007503CC /* Grey.png in Resources */,
+				C4A529A821765647007503CC /* erase (1).png in Resources */,
+				C4A529A721765647007503CC /* sketch.jpg in Resources */,
+				C4A529AD21765647007503CC /* Save-Small.png in Resources */,
+				C4A529B621765647007503CC /* LightGreen.png in Resources */,
+				C4A529C121765647007503CC /* save-png-image-82434.png in Resources */,
+				C4A529A921765647007503CC /* DrawndColor.jpg in Resources */,
+				C4A529BE21765647007503CC /* g.png in Resources */,
+				C4A529B021765647007503CC /* reset-Small.png in Resources */,
+				C4A529B421765647007503CC /* Setting-1.png in Resources */,
+				C4A529B821765647007503CC /* thickness.png in Resources */,
+				C4A529B121765647007503CC /* Black.png in Resources */,
+				C4A529AC21765647007503CC /* DarkOrange.png in Resources */,
+				C4A529BF21765647007503CC /* Opacity.png in Resources */,
+				C4A529AF21765647007503CC /* Blue.png in Resources */,
+				C4A529B921765647007503CC /* b.png in Resources */,
+				C4F7AF5B21AAFC6200955F4F /* shapeslogo.jpg in Resources */,
+				C457650F2187A4DB0078A67D /* podfile in Resources */,
+				C41F389C217EF20B00BF8478 /* delete-sign.png in Resources */,
+				C4A529B321765647007503CC /* Eraser.png in Resources */,
+				C4A529AE21765647007503CC /* Yellow.png in Resources */,
+				C4C60F7221A052EB00197346 /* carslogo.png in Resources */,
+				C4A529582176560D007503CC /* Main.storyboard in Resources */,
+				C41F3898217EEEE600BF8478 /* 54528.svg in Resources */,
+				C4A529AB21765647007503CC /* width.png in Resources */,
+				C4A529C021765647007503CC /* Red.png in Resources */,
+				C4C60F6F21A052E000197346 /* animals logo.png in Resources */,
+				C4C60F7321A052EB00197346 /* fruitslogo.jpg in Resources */,
+				C4A529BD21765647007503CC /* r.png in Resources */,
+				C4A529A421765647007503CC /* reset.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A5296321765610007503CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A5296E21765610007503CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CDFF5571593A2DDD453B2292 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Draw and Play-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4A529492176560D007503CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46575F5225A0BEA00B8589B /* selectsketchViewController.m in Sources */,
+				C4A5296021765610007503CC /* main.m in Sources */,
+				C4A529C221765647007503CC /* SettingsViewController.m in Sources */,
+				C4A529C621770CF4007503CC /* firstScreenViewController.m in Sources */,
+				C4A529522176560D007503CC /* AppDelegate.m in Sources */,
+				C489E07C217AB909008B7369 /* ViewController.m in Sources */,
+				C478A6D2219A04CD00153397 /* SketchtypeCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A5296121765610007503CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A5296A21765610007503CC /* Draw_and_PlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4A5296C21765610007503CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A5297521765610007503CC /* Draw_and_PlayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4A5296721765610007503CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4A5294C2176560D007503CC /* Draw and Play */;
+			targetProxy = C4A5296621765610007503CC /* PBXContainerItemProxy */;
+		};
+		C4A5297221765610007503CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4A5294C2176560D007503CC /* Draw and Play */;
+			targetProxy = C4A5297121765610007503CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4A529562176560D007503CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4A529572176560D007503CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4A5295B21765610007503CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4A5295C21765610007503CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4A5297721765611007503CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4A5297821765611007503CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4A5297A21765611007503CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB4B8D12FF339ECA4633188 /* Pods-Draw and Play.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZV8FH84KU;
+				INFOPLIST_FILE = "Draw and Play/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.moiz.Drawandcolor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C4A5297B21765611007503CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32EC2673CD8774F994D1338F /* Pods-Draw and Play.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZV8FH84KU;
+				INFOPLIST_FILE = "Draw and Play/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.moiz.Drawandcolor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C4A5297D21765611007503CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62BCMM8X9;
+				INFOPLIST_FILE = "Draw and PlayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Domojis.domojis.Draw-and-PlayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Draw and Play.app/Draw and Play";
+			};
+			name = Debug;
+		};
+		C4A5297E21765611007503CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62BCMM8X9;
+				INFOPLIST_FILE = "Draw and PlayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Domojis.domojis.Draw-and-PlayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Draw and Play.app/Draw and Play";
+			};
+			name = Release;
+		};
+		C4A5298021765611007503CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62BCMM8X9;
+				INFOPLIST_FILE = "Draw and PlayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Domojis.domojis.Draw-and-PlayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Draw and Play";
+			};
+			name = Debug;
+		};
+		C4A5298121765611007503CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62BCMM8X9;
+				INFOPLIST_FILE = "Draw and PlayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Domojis.domojis.Draw-and-PlayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Draw and Play";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4A529482176560D007503CC /* Build configuration list for PBXProject "Draw and Play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4A5297721765611007503CC /* Debug */,
+				C4A5297821765611007503CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4A5297921765611007503CC /* Build configuration list for PBXNativeTarget "Draw and Play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4A5297A21765611007503CC /* Debug */,
+				C4A5297B21765611007503CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4A5297C21765611007503CC /* Build configuration list for PBXNativeTarget "Draw and PlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4A5297D21765611007503CC /* Debug */,
+				C4A5297E21765611007503CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4A5297F21765611007503CC /* Build configuration list for PBXNativeTarget "Draw and PlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4A5298021765611007503CC /* Debug */,
+				C4A5298121765611007503CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4A529452176560D007503CC /* Project object */;
+}
